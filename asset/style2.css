@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.outer-square {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-color: white;
+}
+.green-square {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    padding-top: 4px;
+    padding-left: 4px;
+    justify-content: top;
+    align-items: top;
+}
+.blue-square {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow-circle {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+}
