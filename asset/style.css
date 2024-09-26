@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #90ee90; /* Light green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.eye {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+}
+.eye.left {
+    top: 140px;
+    left: 125px;
+}
+.eye.right {
+    top: 140px;
+    right: 125px;
+}
+.mouth {
+    width: 250px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    bottom: 80px;
+}
